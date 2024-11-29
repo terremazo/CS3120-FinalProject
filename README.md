@@ -11,7 +11,7 @@ A heat map of the covarinace matrix is shown.
 The top 9 parameters associated with the salesprice are shown with their correlation coefficient.
 Finally, the home salesprice is plotted against the top 5 correlated parameters in addition to total square footage.
 
-The data indicates that the salesprice is most strongly correlated with the overall quality of the home, followed by the total square footage (the combined footage of the general living area above ground and basement square footage), the number of cars the garage can hold and the individual sectiion square footage of areas of the house. The correlation coefficient of the top six parameters is shown below.
+The data indicates that the salesprice is most strongly correlated with the overall quality of the home, followed by the total square footage (the combined footage of the general living area above ground and basement square footage), the number of cars the garage can hold and the individual section square footage of areas of the house. The correlation coefficient of the top six parameters is shown below.
 
 ### Comparison of Results
 
