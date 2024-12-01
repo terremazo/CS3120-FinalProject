@@ -2,7 +2,7 @@
 
 The ultimate goal of this project is to accurately predict the salesprice of the home. However, it is desired to see how different models perform this task. Specifically, Principal Component Analysis (PCA), K-Nearest Neighbors (KNN) applied to the PCA transformed data, K-Nearest Neighbors (KNN) without PCA, and Linear Discriminant Analysis (LDA) are the models that will be used to compare their performance. 
 
-### Mehtodology
+### Methodology
 Linear Regression analysis was performed to provide a baseline of performance for comparison.
 PCA and LDA were utilized because they both take advantage of a covariance matrix of the data.
 KNN was utlized to see if and how much it improved the performance of the PCA and LDA models.
