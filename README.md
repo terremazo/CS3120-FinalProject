@@ -15,6 +15,7 @@ The KNN model used n_neighbors = 5.
 LDA is normally a classification model being used in this instance as if it were performing regression.
 The LDA model "binned" the data into three categories: 0-low price, 1-medium price, 2- high price.
 These are the categories that the LDA model used as targets.
+The KNN model was also applied to the LDA model to improve performance.
 
 The data was cleaned and missing data ws imputed with the mean or mode depending which was appropriate.
 
