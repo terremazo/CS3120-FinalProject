@@ -102,6 +102,7 @@ The data indicates that the salesprice is most strongly correlated with the over
 - **Best Model**: LDA + KNN delivers the most accurate predictions (lowest RMSE), suggesting price categorization enhances predictive power.
 - **Feature Insights**:
   - Combining features like `TotalBsmtSF` and `GrLivArea` into `TotalSquareFootage` significantly boosts predictive accuracy.
+  - Combining methods like 'PCA' and 'KNN' may achieve better results than the method by itself.
 - **Future Considerations**:
   - Experiment with ensemble methods (e.g., Random Forest or Gradient Boosting) to compare with KNN-based approaches.
   - Explore further feature engineering and interaction effects for nuanced insights.
