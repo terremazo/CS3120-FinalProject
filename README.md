@@ -2,6 +2,19 @@
 
 The ultimate goal of this project is to accurately predict the salesprice of the home. However, it is desired to see how different models perform this task. Specifically, Principal Component Analysis (PCA), K-Nearest Neighbors (KNN) applied to the PCA transformed data, K-Nearest Neighbors (KNN) without PCA, and Linear Discriminant Analysis (LDA) are the models that will be used to compare their performance. 
 
+### Mehtodology
+Linear Regression analysis was performed to provide a baseline of performance for comparison.
+PCA and LDA were utilized because they both take advantage of a covariance matrix of the data.
+KNN was utlized to see if and how much it improved the performance of the PCA and LDA models.
+PCA was used with n_components = 3.
+The KNN model used n_neighbors = 5.
+
+LDA is normally a classification model being used in this instance as if it is performing regression.
+The LDA model "binned" the data into three categories: 0-low price, 1-medium price, 2- high price.
+These are the categories that the LDA model used as targets.
+
+The data was cleaned and missing data ws imputed with the mean or mode depending which was appropriate.
+
 ### Data Analysis
 
 The first part this presentation is a data analysis of the 2020 AMES Housing Data. The data is downloaded and analyzed using Python on Kaggle.
