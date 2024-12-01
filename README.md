@@ -8,7 +8,7 @@ Linear Regression analysis was used to provide a baseline of performance for com
 PCA and LDA were utilized because they both take advantage of a covariance matrix of the data.
 It was desired to investigate how a covariance matrix was used by the models.
 
-KNN was utlized to see if and how much performance performance improved with or without the PCA model.
+KNN was utlized to see if and how much performance improved with or without the PCA model.
 PCA was used with n_components = 3.
 The KNN model used n_neighbors = 5.
 
