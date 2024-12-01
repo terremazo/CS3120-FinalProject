@@ -10,7 +10,7 @@ KNN was utlized to see if and how much it improved the performance of the PCA an
 PCA was used with n_components = 3.
 The KNN model used n_neighbors = 5.
 
-LDA is normally a classification model being used in this instance as if it is performing regression.
+LDA is normally a classification model being used in this instance as if it were performing regression.
 The LDA model "binned" the data into three categories: 0-low price, 1-medium price, 2- high price.
 These are the categories that the LDA model used as targets.
 
